@@ -21,12 +21,18 @@ La imagen subida por el usuario junto con los parámetros de configuración sele
 
 Propiedad Clasificación Justificación
 
-Observable  Parcial  El agente solo percibe la imagen 2D subida, no puede ver el objeto completo.
-Determinista  No  La misma imagen puede producir resultados ligeramente distintos en cada ejecución.
-Episódico  Sí  	Cada generación 3D es independiente, el resultado de una imagen no depende de interacciones o generaciones anteriores.
-Estático  Sí  	La imagen de entrada no cambia mientras el agente la procesa; el entorno permanece fijo durante la generación.
-Discreto  No  Tanto la imagen de entrada como el objeto de salida son de naturaleza continua.
-Conocido  Sí  El modelo de generación es conocido por sus diseñadores.
+### Observable: Parcial
+El agente solo percibe la imagen 2D subida, no puede ver el objeto completo.
+### Determinista: No
+La misma imagen puede producir resultados ligeramente distintos en cada ejecución.
+### Episódico: Sí  	
+Cada generación 3D es independiente, el resultado de una imagen no depende de interacciones o generaciones anteriores.
+### Estático: Sí  	
+La imagen de entrada no cambia mientras el agente la procesa; el entorno permanece fijo durante la generación.
+### Discreto: No  
+Tanto la imagen de entrada como el objeto de salida son de naturaleza continua.
+### Conocido: Sí  
+El modelo de generación es conocido por sus diseñadores.
 
 
 ## 5. ¿Qué tipo de programa de agente creen que es?
